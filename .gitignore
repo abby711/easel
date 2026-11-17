@@ -1,0 +1,4 @@
+node_modules/
+.easel/
+*.log
+.DS_Store

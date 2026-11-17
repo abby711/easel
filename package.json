@@ -1,0 +1,23 @@
+{
+  "name": "easel",
+  "version": "0.1.0",
+  "description": "Put your running app on a canvas. Every route as a live frame, mockable data, frame copies, patch export. Local-first, no AI, no cloud.",
+  "type": "module",
+  "bin": {
+    "easel": "bin/easel.js"
+  },
+  "scripts": {
+    "start": "node bin/easel.js",
+    "test": "node --test test/unit/*.test.js",
+    "test:e2e": "node test/e2e.js"
+  },
+  "devDependencies": {
+    "jquery": "3.7.1",
+    "jsdom": "25.0.1"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

@@ -1,0 +1,1473 @@
+{
+  "angular": {
+    "when": "2026-11-17T09:04:11.580Z",
+    "detected": "Angular",
+    "candidates": [
+      ".:angular"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 517,
+    "routes": 11,
+    "dynamic": 4,
+    "routeList": [
+      "/",
+      "/:slug",
+      "/:username",
+      "/article/:slug",
+      "/editor",
+      "/favorites",
+      "/login",
+      "/profile",
+      "/register",
+      "/settings",
+      "/tag/:tag"
+    ],
+    "routeStatus": {
+      "/": {
+        "status": 200,
+        "ms": 38,
+        "redirect": null
+      },
+      "/editor": {
+        "status": 200,
+        "ms": 50,
+        "redirect": null
+      },
+      "/login": {
+        "status": 200,
+        "ms": 19,
+        "redirect": null
+      },
+      "/favorites": {
+        "status": 200,
+        "ms": 57,
+        "redirect": null
+      },
+      "/register": {
+        "status": 200,
+        "ms": 8,
+        "redirect": null
+      },
+      "/profile": {
+        "status": 200,
+        "ms": 13,
+        "redirect": null
+      },
+      "/settings": {
+        "status": 200,
+        "ms": 9,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 7,
+      "ok": 7,
+      "redirect": 0,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code (Fetched submodules · Reused the existing checkout)",
+      "done:Detecting your stack (Angular)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (Angular on http://127.0.0.1:5300)",
+      "done:Finding your pages (11 routes (4 need a value))",
+      "done:Adding your pages",
+      "done:Checking each page works (All pages respond)"
+    ],
+    "logTail": [
+      "styles.css                              | styles                      |  24.05 kB | ",
+      "main.js                                 | main                        |  22.03 kB | ",
+      "chunk-J3FZHCRO.js                       | -                           |   6.42 kB | ",
+      "chunk-DFDCKCUU.js                       | -                           | 830 bytes | ",
+      "                                        | Initial total               |  53.33 kB",
+      "Lazy chunk files                        | Names                       |  Raw size",
+      "article.component-4QO7SJ3G.js           | article-component           |  36.48 kB | ",
+      "chunk-TNVJJAKO.js                       | -                           |  16.89 kB | ",
+      "home.component-IJ2GF637.js              | home-component              |  14.90 kB | ",
+      "profile.routes-FCOG72D4.js              | profile-routes              |  11.89 kB | ",
+      "editor.component-OFPL3FTE.js            | editor-component            |  11.53 kB | ",
+      "auth.component-KRX3KSCJ.js              | auth-component              |  10.65 kB | ",
+      "settings.component-WEXHXXLK.js          | settings-component          |  10.19 kB | ",
+      "chunk-HF6DVJXJ.js                       | -                           |   9.56 kB | ",
+      "chunk-C3FJCQLG.js                       | -                           |   5.26 kB | ",
+      "profile-favorites.component-UUV66REX.js | profile-favorites-component |   4.28 kB | ",
+      "profile-articles.component-FOLFA5SN.js  | profile-articles-component  |   4.24 kB | ",
+      "chunk-JCZWJ6MA.js                       | -                           |   3.40 kB | ",
+      "chunk-EXY4YBJ3.js                       | -                           |   2.43 kB | ",
+      "chunk-VA5RQTBU.js                       | -                           |   2.10 kB | ",
+      "chunk-APCD55BC.js                       | -                           |   1.55 kB | ",
+      "Application bundle generation complete. [2.358 seconds] - 2026-11-17T09:04:10.710Z",
+      "Watch mode enabled. Watching for file changes...",
+      "NOTE: Raw file sizes do not reflect development server per-request transformations.",
+      "  ➜  Local:   http://127.0.0.1:5301/"
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": "Fixed: git submodules weren’t fetched (theme lives in one)."
+  },
+  "sveltekit": {
+    "when": "2026-11-17T09:04:40.273Z",
+    "detected": "SvelteKit",
+    "candidates": [
+      ".:sveltekit",
+      "src:static"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 22,
+    "routes": 10,
+    "dynamic": 4,
+    "routeList": [
+      "/",
+      "/article/:slug",
+      "/editor",
+      "/editor/:slug",
+      "/login",
+      "/profile",
+      "/profile/@:user",
+      "/profile/@:user/favorites",
+      "/register",
+      "/settings"
+    ],
+    "routeStatus": {
+      "/editor": {
+        "status": 302,
+        "ms": 430,
+        "redirect": "/login"
+      },
+      "/profile": {
+        "status": 307,
+        "ms": 27,
+        "redirect": "/login"
+      },
+      "/login": {
+        "status": 200,
+        "ms": 581,
+        "redirect": null
+      },
+      "/": {
+        "status": 500,
+        "ms": 583,
+        "redirect": null
+      },
+      "/profile/@:user": {
+        "status": 500,
+        "ms": 126,
+        "redirect": null
+      },
+      "/settings": {
+        "status": 302,
+        "ms": 9,
+        "redirect": "/login"
+      },
+      "/profile/@:user/favorites": {
+        "status": 500,
+        "ms": 15,
+        "redirect": null
+      },
+      "/register": {
+        "status": 200,
+        "ms": 25,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 8,
+      "ok": 2,
+      "redirect": 3,
+      "bad": 3
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (SvelteKit)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (SvelteKit on http://127.0.0.1:5300)",
+      "done:Finding your pages (10 routes (4 need a value))",
+      "done:Adding your pages",
+      "warn:Checking each page works (3 page(s) returned errors)"
+    ],
+    "logTail": [
+      "        ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+      "2:34:38 PM [vite] (client) Forced re-optimization of dependencies",
+      "  VITE v7.3.8  ready in 698 ms",
+      "  ➜  Local:   http://127.0.0.1:5301/",
+      "[500] GET /",
+      "TypeError: fetch failed (Easel offline state)",
+      "    at easelFetch (../../../../mnt/personal/easel/runtime/node-hook.cjs:32:57)",
+      "    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)",
+      "    at async send (src/lib/api.js:17:14)",
+      "    at async Promise.all (index 0)",
+      "    at async load (src/routes/+page.server.js:18:50)",
+      "[500] GET /profile/@:user",
+      "TypeError: fetch failed (Easel offline state)",
+      "    at easelFetch (../../../../mnt/personal/easel/runtime/node-hook.cjs:32:57)",
+      "    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)",
+      "    at async send (src/lib/api.js:17:14)",
+      "    at async load (src/routes/profile/@[user]/+layout.server.js:4:22)",
+      "Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead",
+      "Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead",
+      "[500] GET /profile/@:user/favorites",
+      "TypeError: fetch failed (Easel offline state)",
+      "    at easelFetch (../../../../mnt/personal/easel/runtime/node-hook.cjs:32:57)",
+      "    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)",
+      "    at async send (src/lib/api.js:17:14)",
+      "    at async load (src/routes/profile/@[user]/+layout.server.js:4:22)"
+    ],
+    "verdict": "partial",
+    "reason": null,
+    "note": "Runs. Pages that load data server-side from the (dead) RealWorld API 500 until mock rules are added; auth pages redirect correctly."
+  },
+  "vue-realworld": {
+    "when": "2026-11-17T09:05:45.200Z",
+    "detected": "Vite + Vue",
+    "candidates": [
+      ".:vite"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 26,
+    "routes": 11,
+    "dynamic": 5,
+    "routeList": [
+      "/",
+      "/article/:slug",
+      "/article/:slug/edit",
+      "/article/create",
+      "/login",
+      "/my-feeds",
+      "/profile/:username",
+      "/profile/:username/favorites",
+      "/register",
+      "/settings",
+      "/tag/:tag"
+    ],
+    "routeStatus": {
+      "/": {
+        "status": 200,
+        "ms": 27,
+        "redirect": null
+      },
+      "/article/create": {
+        "status": 200,
+        "ms": 29,
+        "redirect": null
+      },
+      "/login": {
+        "status": 200,
+        "ms": 31,
+        "redirect": null
+      },
+      "/my-feeds": {
+        "status": 200,
+        "ms": 13,
+        "redirect": null
+      },
+      "/register": {
+        "status": 200,
+        "ms": 16,
+        "redirect": null
+      },
+      "/settings": {
+        "status": 200,
+        "ms": 34,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 6,
+      "ok": 6,
+      "redirect": 0,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Vite + Vue)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (Vite + Vue on http://127.0.0.1:5300)",
+      "done:Finding your pages (11 routes (5 need a value))",
+      "done:Adding your pages",
+      "done:Checking each page works (All pages respond)"
+    ],
+    "logTail": [
+      "+ eslint 10.2.0",
+      "+ eslint-plugin-vuejs-accessibility 2.5.0",
+      "+ happy-dom 20.9.0",
+      "+ lint-staged 16.4.0",
+      "+ monocart-coverage-reports 2.12.9",
+      "+ msw 2.13.3",
+      "+ rollup-plugin-analyzer 4.0.0",
+      "+ simple-git-hooks 2.13.1",
+      "+ size-limit 12.1.0",
+      "+ swagger-typescript-api 13.6.8",
+      "+ tsx 4.21.0",
+      "+ typescript 6.0.2",
+      "+ vite 8.0.8",
+      "+ vitest 4.1.4",
+      "+ vitest-monocart-coverage 4.0.2",
+      "+ vue-tsc 3.2.6",
+      ". prepare$ simple-git-hooks",
+      ". prepare: [INFO] Successfully set the pre-commit with command: npm exec lint-staged",
+      ". prepare: [INFO] Successfully set the pre-push with command: pnpm type-check && pnpm build",
+      ". prepare: [INFO] Successfully set all git hooks",
+      ". prepare: Done",
+      "Done in 21.6s using pnpm v10.33.0",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/projects/pvue3-realworld-examp-4554/repo/node_modules/.bin/vite --port 5301 --strictPort --host 127.0.0.1   (app :5301 → proxy :5300)",
+      "  VITE v8.0.8  ready in 275 ms",
+      "  ➜  Local:   http://127.0.0.1:5301/"
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": ""
+  },
+  "vitesse": {
+    "when": "2026-11-17T09:06:23.134Z",
+    "detected": "Vite + Vue",
+    "candidates": [
+      ".:vite"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 34,
+    "routes": 1,
+    "dynamic": 0,
+    "routeList": [
+      "/"
+    ],
+    "routeStatus": {
+      "/": {
+        "status": 200,
+        "ms": 24,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 1,
+      "ok": 1,
+      "redirect": 0,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Vite + Vue)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (Vite + Vue on http://127.0.0.1:5300)",
+      "done:Finding your pages (1 route (0 need a value))",
+      "done:Adding your pages",
+      "done:Checking each page works (All pages respond)"
+    ],
+    "logTail": [
+      "    at async UnoGeneratorInternal.generate (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+core@66.10.5/node_modules/@unocss/core/dist/index.mjs:869:3) {",
+      "  [cause]: TypeError: fetch failed: https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=DM+Mono&display=swap (Easel: unreachable: fetch failed; add a mock rule for it)",
+      "      at easelFetch (/sessions/focused-dreamy-mendel/mnt/personal/easel/runtime/node-hook.cjs:40:13)",
+      "      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)",
+      "      at async $fetchRaw2 (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch/dist/shared/ofetch.CWycOUEr.mjs:274:26)",
+      "      at async $fetchRaw2 (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch/dist/shared/ofetch.CWycOUEr.mjs:286:14)",
+      "      at async $fetchRaw2 (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch/dist/shared/ofetch.CWycOUEr.mjs:286:14)",
+      "      at async $fetchRaw2 (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch/dist/shared/ofetch.CWycOUEr.mjs:286:14)",
+      "      at async Module.$fetch2 (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch/dist/shared/ofetch.CWycOUEr.mjs:332:15)",
+      "      at async fetchWithTimeout (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+preset-web-fonts@66.10.5/node_modules/@unocss/preset-web-fonts/dist/index.mjs:296:11)",
+      "      at async importUrl (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+preset-web-fonts@66.10.5/node_modules/@unocss/preset-web-fonts/dist/index.mjs:310:12)",
+      "      at async getCSSDefault (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+preset-web-fonts@66.10.5/node_modules/@unocss/preset-web-fonts/dist/index.mjs:320:31)",
+      "      at async Object.getCSS (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+preset-web-fonts@66.10.5/node_modules/@unocss/preset-web-fonts/dist/local.mjs:34:16)",
+      "      at async Object.getCSS (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+preset-web-fonts@66.10.5/node_modules/@unocss/preset-web-fonts/dist/index.mjs:337:22)",
+      "      at async file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+core@66.10.5/node_modules/@unocss/core/dist/index.mjs:881:130",
+      "      at async Promise.all (index 0)",
+      "      at async file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+core@66.10.5/node_modules/@unocss/core/dist/index.mjs:881:21",
+      "      at async Promise.all (index 1)",
+      "      at async file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+core@66.10.5/node_modules/@unocss/core/dist/index.mjs:880:39",
+      "      at async UnoGeneratorInternal.generate (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pvitesse-7de4/repo/node_modules/.pnpm/@unocss+core@66.10.5/node_modules/@unocss/core/dist/index.mjs:869:3)",
+      "}",
+      "  VITE v8.3.3  ready in 1638 ms",
+      "  ➜  Local:   http://127.0.0.1:5301/",
+      "  ➜  Vue DevTools: Open http://127.0.0.1:5301/__devtools__/ as a separate window",
+      "  ➜  Vue DevTools: Press Alt(⌥)+Shift(⇧)+D in App to toggle the Vue DevTools"
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": "Fixed: Vue Router’s built-in file routing (src/pages) wasn’t read. pnpm via Easel’s tool cache."
+  },
+  "bulletproof-vite": {
+    "when": "2026-11-17T09:13:01.833Z",
+    "detected": "Vite + React @ apps/react-vite",
+    "candidates": [
+      "apps/nextjs-app:next",
+      "apps/nextjs-pages:next",
+      "apps/react-vite:vite"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 66,
+    "routes": 1,
+    "dynamic": 0,
+    "routeList": [
+      "/"
+    ],
+    "routeStatus": {
+      "/": {
+        "status": 200,
+        "ms": 117,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 1,
+      "ok": 1,
+      "redirect": 0,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Vite + React in apps/react-vite/)",
+      "done:Preparing environment (Wrote .env from .env.example (0 placeholder values))",
+      "done:Installing & starting your app (Vite + React on http://127.0.0.1:5300)",
+      "done:Finding your pages (1 route (0 need a value))",
+      "done:Adding your pages",
+      "done:Checking each page works (All pages respond)"
+    ],
+    "logTail": [
+      "✗ yarn install (via corepack) exited with 1",
+      "$ npm install --no-audit --no-fund --loglevel=error",
+      "npm error code E403",
+      "npm error 403 403 Forbidden - GET https://registry.npmmirror.com/eslint-plugin-check-file/-/eslint-plugin-check-file-2.8.0.tgz",
+      "npm error 403 In most cases, you or one of your dependencies are requesting",
+      "npm error 403 a package version that is forbidden by your security policy, or",
+      "npm error 403 on a server you do not have access to.",
+      "npm error A complete log of this run can be found in: /sessions/focused-dreamy-mendel/.npm/_logs/2026-11-17T09_12_13_753Z-debug-0.log",
+      "✗ npm install exited with 1",
+      "$ npm install --legacy-peer-deps --no-audit --no-fund --loglevel=error",
+      "npm error code E403",
+      "npm error 403 403 Forbidden - GET https://registry.npmmirror.com/eslint-plugin-check-file/-/eslint-plugin-check-file-2.8.0.tgz",
+      "npm error 403 In most cases, you or one of your dependencies are requesting",
+      "npm error 403 a package version that is forbidden by your security policy, or",
+      "npm error 403 on a server you do not have access to.",
+      "npm error A complete log of this run can be found in: /sessions/focused-dreamy-mendel/.npm/_logs/2026-11-17T09_12_23_990Z-debug-0.log",
+      "✗ npm install --legacy-peer-deps exited with 1",
+      "$ sh -c for f in yarn.lock pnpm-lock.yaml bun.lock bun.lockb npm-shrinkwrap.json; do [ -f \"$f.easel-hidden\" ] && mv \"$f.easel-hidden\" \"$f\"; done; for f in yarn.lock pnpm-lock.yaml bun.lock bun.lockb npm-shrinkwrap.json; do [ -f \"$f\" ] && mv \"$f\" \"$f.easel-hidden\"; done; npm install --package-lock=false --legacy-peer-deps --no-audit --no-fund --loglevel=error; code=$?; for f in yarn.lock pnpm-lock.yaml bun.lock bun.lockb npm-shrinkwrap.json; do [ -f \"$f.easel-hidden\" ] && mv \"$f.easel-hidden\" \"$f\"; done; exit $code",
+      "> bulletproof-react-vite@1.0.0 prepare",
+      "> husky",
+      ".git can't be found",
+      "added 1192 packages in 29s",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/projects/pbulletproof-react-4e48/repo/apps/react-vite/node_modules/.bin/vite --port 5301 --strictPort --host 127.0.0.1   (app :5301 → proxy :5300)",
+      "  VITE v5.4.21  ready in 143 ms",
+      "  ➜  Local:   http://127.0.0.1:5301/"
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": "Fixed: routes kept in a config module; lockfile pointing at an unreachable mirror (falls back to a fresh resolve)."
+  },
+  "bulletproof-next": {
+    "when": "2026-11-17T09:16:01.701Z",
+    "detected": "Next.js @ apps/nextjs-app",
+    "candidates": [
+      "apps/nextjs-app:next",
+      "apps/nextjs-pages:next",
+      "apps/react-vite:vite"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 162,
+    "routes": 9,
+    "dynamic": 2,
+    "routeList": [
+      "/",
+      "/app",
+      "/app/discussions",
+      "/app/discussions/:discussionId",
+      "/app/profile",
+      "/app/users",
+      "/auth/login",
+      "/auth/register",
+      "/public/discussions/:discussionId"
+    ],
+    "routeStatus": {
+      "/": {
+        "status": 200,
+        "ms": 8078,
+        "redirect": null
+      },
+      "/app/discussions": {
+        "status": 200,
+        "ms": 8157,
+        "redirect": null
+      },
+      "/app": {
+        "status": 200,
+        "ms": 8161,
+        "redirect": null
+      },
+      "/app/users": {
+        "status": 200,
+        "ms": 778,
+        "redirect": null
+      },
+      "/auth/login": {
+        "status": 200,
+        "ms": 777,
+        "redirect": null
+      },
+      "/app/profile": {
+        "status": 200,
+        "ms": 862,
+        "redirect": null
+      },
+      "/auth/register": {
+        "status": 200,
+        "ms": 299,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 7,
+      "ok": 7,
+      "redirect": 0,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code (Reused the existing checkout)",
+      "done:Detecting your stack (Next.js in apps/nextjs-app/)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (Next.js on http://127.0.0.1:5300)",
+      "done:Finding your pages (9 routes (2 need a value))",
+      "done:Adding your pages",
+      "done:Checking each page works (All pages respond)"
+    ],
+    "logTail": [
+      "$ husky",
+      ".git can't be found",
+      "Done in 7.55s.",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/projects/pbulletproof-react-0ebf/repo/apps/nextjs-app/node_modules/.bin/next dev -p 5301 -H 127.0.0.1   (app :5301 → proxy :5300)",
+      "  ▲ Next.js 14.2.5",
+      "  - Local:        http://127.0.0.1:5301",
+      "  - Network:      http://127.0.0.1:5301",
+      "  - Environments: .env",
+      " ✓ Starting...",
+      " ✓ Ready in 872ms",
+      " ○ Compiling /app/discussions ...",
+      "Browserslist: caniuse-lite is outdated. Please run:",
+      "  npx update-browserslist-db@latest",
+      "  Why you should do it regularly: https://github.com/browserslist/update-db#readme",
+      " ✓ Compiled /app/discussions in 7s (1095 modules)",
+      " GET / 200 in 7287ms",
+      " GET /app/discussions 200 in 7365ms",
+      " GET /app 200 in 7368ms",
+      " ○ Compiling /auth/login ...",
+      " ✓ Compiled /auth/login in 591ms (1130 modules)",
+      " GET /app/users 200 in 775ms",
+      " GET /auth/login 200 in 774ms",
+      " GET /app/profile 200 in 780ms",
+      " ✓ Compiled /auth/register in 242ms (1140 modules)",
+      " GET /auth/register 200 in 296ms"
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": "Monorepo app picked from apps/."
+  },
+  "fastapi-frontend": {
+    "when": "2026-11-17T09:18:58.842Z",
+    "detected": "Vite + React @ frontend",
+    "candidates": [
+      ".:fastapi",
+      "frontend:vite",
+      "packages/react-email:node-script"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 20,
+    "routes": 8,
+    "dynamic": 0,
+    "routeList": [
+      "/",
+      "/admin",
+      "/items",
+      "/login",
+      "/recover-password",
+      "/reset-password",
+      "/settings",
+      "/signup"
+    ],
+    "routeStatus": {
+      "/": {
+        "status": 200,
+        "ms": 27,
+        "redirect": null
+      },
+      "/admin": {
+        "status": 200,
+        "ms": 32,
+        "redirect": null
+      },
+      "/items": {
+        "status": 200,
+        "ms": 34,
+        "redirect": null
+      },
+      "/login": {
+        "status": 200,
+        "ms": 19,
+        "redirect": null
+      },
+      "/recover-password": {
+        "status": 200,
+        "ms": 22,
+        "redirect": null
+      },
+      "/reset-password": {
+        "status": 200,
+        "ms": 20,
+        "redirect": null
+      },
+      "/settings": {
+        "status": 200,
+        "ms": 114,
+        "redirect": null
+      },
+      "/signup": {
+        "status": 200,
+        "ms": 339,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 8,
+      "ok": 8,
+      "redirect": 0,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Vite + React in frontend/)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (Vite + React on http://127.0.0.1:5300)",
+      "done:Finding your pages (8 routes (0 need a value))",
+      "done:Adding your pages",
+      "done:Checking each page works (All pages respond)"
+    ],
+    "logTail": [
+      "$ npm install --no-audit --no-fund --loglevel=error",
+      "added 293 packages in 16s",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/projects/pfull-stack-fastapi-t-a369/repo/node_modules/.bin/vite --port 5301 --strictPort --host 127.0.0.1   (app :5301 → proxy :5300)",
+      "[vite:react-swc] We recommend switching to `@vitejs/plugin-react` for improved performance as no swc plugins are used. More information at https://vite.dev/rolldown",
+      "  VITE v8.3.8  ready in 588 ms",
+      "  ➜  Local:   http://127.0.0.1:5301/"
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": "Fixed: workspace installs hoist binaries to the repo root; TanStack pathless layouts in paths."
+  },
+  "next-saas": {
+    "when": "2026-11-17T09:21:10.976Z",
+    "detected": "Next.js",
+    "candidates": [
+      ".:next"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 126,
+    "routes": 8,
+    "dynamic": 0,
+    "routeList": [
+      "/",
+      "/dashboard",
+      "/dashboard/activity",
+      "/dashboard/general",
+      "/dashboard/security",
+      "/pricing",
+      "/sign-in",
+      "/sign-up"
+    ],
+    "routeStatus": {
+      "/dashboard": {
+        "status": 307,
+        "ms": 666,
+        "redirect": "http://127.0.0.1:5300/sign-in"
+      },
+      "/dashboard/activity": {
+        "status": 307,
+        "ms": 669,
+        "redirect": "http://127.0.0.1:5300/sign-in"
+      },
+      "/dashboard/general": {
+        "status": 307,
+        "ms": 9,
+        "redirect": "http://127.0.0.1:5300/sign-in"
+      },
+      "/dashboard/security": {
+        "status": 307,
+        "ms": 9,
+        "redirect": "http://127.0.0.1:5300/sign-in"
+      },
+      "/sign-in": {
+        "status": 200,
+        "ms": 3342,
+        "redirect": null
+      },
+      "/": {
+        "status": 200,
+        "ms": 4037,
+        "redirect": null
+      },
+      "/sign-up": {
+        "status": 200,
+        "ms": 304,
+        "redirect": null
+      },
+      "/pricing": {
+        "status": 500,
+        "ms": 4407,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 8,
+      "ok": 3,
+      "redirect": 4,
+      "bad": 1
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Next.js)",
+      "done:Preparing environment (Wrote .env from .env.example (0 placeholder values))",
+      "done:Installing & starting your app (Next.js on http://127.0.0.1:5300)",
+      "done:Finding your pages (8 routes (0 need a value))",
+      "done:Adding your pages",
+      "warn:Checking each page works (1 page(s) returned errors)"
+    ],
+    "logTail": [
+      "  rawType: undefined,",
+      "  code: undefined,",
+      "  doc_url: undefined,",
+      "  param: undefined,",
+      "  detail: Error: getaddrinfo EAI_AGAIN api.stripe.com",
+      "      at ignore-listed frames {",
+      "    errno: -3001,",
+      "    code: 'EAI_AGAIN',",
+      "    syscall: 'getaddrinfo',",
+      "    hostname: 'api.stripe.com'",
+      "  },",
+      "  headers: undefined,",
+      "  requestId: undefined,",
+      "  statusCode: undefined,",
+      "  userMessage: undefined,",
+      "  charge: undefined,",
+      "  decline_code: undefined,",
+      "  payment_intent: undefined,",
+      "  payment_method: undefined,",
+      "  payment_method_type: undefined,",
+      "  setup_intent: undefined,",
+      "  source: undefined,",
+      "  digest: '889545624'",
+      "}",
+      " GET /pricing 500 in 4395ms"
+    ],
+    "verdict": "partial",
+    "reason": null,
+    "note": "Runs (Postgres/Stripe keys stubbed). Dashboard pages redirect to sign-in; /pricing calls Stripe’s SDK (now intercepted by the Node http hook) and needs a mock rule."
+  },
+  "nuxt-movies": {
+    "when": "2026-11-17T09:41:18.148Z",
+    "detected": "Nuxt",
+    "candidates": [
+      ".:nuxt",
+      "proxy:node-script"
+    ],
+    "status": "error",
+    "instance": "error",
+    "error": "install failed at \"pnpm@11.1.2 install\". See logs.",
+    "secs": 227,
+    "routes": 8,
+    "dynamic": 6,
+    "routeList": [
+      "/",
+      "/:type",
+      "/:type/:id",
+      "/:type/category/:query",
+      "/genre/:no/movie",
+      "/genre/:no/tv",
+      "/person/:id",
+      "/search"
+    ],
+    "routeStatus": {},
+    "pages": null,
+    "steps": [
+      "done:Reading your code (Reused the existing checkout)",
+      "done:Detecting your stack (Nuxt)",
+      "done:Preparing environment (Nothing needed)",
+      "error:Installing & starting your app (install failed at \"pnpm@11.1.2 install\". See logs.)",
+      "done:Finding your pages (8 routes (6 need a value))",
+      "done:Adding your pages",
+      "skipped:Checking each page works (App did not start)"
+    ],
+    "logTail": [
+      "npm error EBADDEVENGINES }",
+      "npm error A complete log of this run can be found in: /sessions/focused-dreamy-mendel/.npm/_logs/2026-11-17T09_41_16_728Z-debug-0.log",
+      "✗ npm install exited with 1",
+      "$ npm install --legacy-peer-deps --no-audit --no-fund --loglevel=error",
+      "npm error code EBADDEVENGINES",
+      "npm error EBADDEVENGINES The developer of this package has specified the following through devEngines",
+      "npm error EBADDEVENGINES Invalid devEngines.packageManager",
+      "npm error EBADDEVENGINES Invalid name \"pnpm\" does not match \"npm\" for \"packageManager\"",
+      "npm error EBADDEVENGINES {",
+      "npm error EBADDEVENGINES   current: { name: 'npm', version: '10.9.8' },",
+      "npm error EBADDEVENGINES   required: { name: 'pnpm', version: '11.1.2', onFail: 'download' }",
+      "npm error EBADDEVENGINES }",
+      "npm error A complete log of this run can be found in: /sessions/focused-dreamy-mendel/.npm/_logs/2026-11-17T09_41_16_896Z-debug-0.log",
+      "✗ npm install --legacy-peer-deps exited with 1",
+      "$ sh -c for f in yarn.lock pnpm-lock.yaml bun.lock bun.lockb npm-shrinkwrap.json; do [ -f \"$f.easel-hidden\" ] && mv \"$f.easel-hidden\" \"$f\"; done; for f in yarn.lock pnpm-lock.yaml bun.lock bun.lockb npm-shrinkwrap.json; do [ -f \"$f\" ] && mv \"$f\" \"$f.easel-hidden\"; done; npm install --package-lock=false --legacy-peer-deps --no-audit --no-fund --loglevel=error; code=$?; for f in yarn.lock pnpm-lock.yaml bun.lock bun.lockb npm-shrinkwrap.json; do [ -f \"$f.easel-hidden\" ] && mv \"$f.easel-hidden\" \"$f\"; done; exit $code",
+      "npm error code EBADDEVENGINES",
+      "npm error EBADDEVENGINES The developer of this package has specified the following through devEngines",
+      "npm error EBADDEVENGINES Invalid devEngines.packageManager",
+      "npm error EBADDEVENGINES Invalid name \"pnpm\" does not match \"npm\" for \"packageManager\"",
+      "npm error EBADDEVENGINES {",
+      "npm error EBADDEVENGINES   current: { name: 'npm', version: '10.9.8' },",
+      "npm error EBADDEVENGINES   required: { name: 'pnpm', version: '11.1.2', onFail: 'download' }",
+      "npm error EBADDEVENGINES }",
+      "npm error A complete log of this run can be found in: /sessions/focused-dreamy-mendel/.npm/_logs/2026-11-17T09_41_17_032Z-debug-0.log",
+      "✗ npm install (ignoring lockfiles) exited with 1"
+    ],
+    "verdict": "fail",
+    "reason": "sandbox only: pnpm 11 downloads Node from nodejs.org (blocked here)",
+    "note": "Easel fetched Node 24 + pnpm 11.1.2 correctly; pnpm then pins its own Node runtime from nodejs.org, which this sandbox cannot reach. Expected to work on a normal machine."
+  },
+  "astro-paper": {
+    "when": "2026-11-17T09:32:19.090Z",
+    "detected": "Astro",
+    "candidates": [
+      ".:astro"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 171,
+    "routes": 9,
+    "dynamic": 3,
+    "routeList": [
+      "/",
+      "/404",
+      "/about",
+      "/archives",
+      "/posts/:page*",
+      "/posts/:slug*",
+      "/search",
+      "/tags",
+      "/tags/:tag/:page*"
+    ],
+    "routeStatus": {
+      "/404": {
+        "status": 404,
+        "ms": 518,
+        "redirect": null,
+        "expected": true
+      },
+      "/": {
+        "status": 200,
+        "ms": 521,
+        "redirect": null
+      },
+      "/about": {
+        "status": 200,
+        "ms": 522,
+        "redirect": null
+      },
+      "/archives": {
+        "status": 200,
+        "ms": 66,
+        "redirect": null
+      },
+      "/search": {
+        "status": 200,
+        "ms": 97,
+        "redirect": null
+      },
+      "/tags": {
+        "status": 200,
+        "ms": 101,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 6,
+      "ok": 6,
+      "redirect": 0,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code (Reused the existing checkout)",
+      "done:Detecting your stack (Astro)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (Astro on http://127.0.0.1:5300)",
+      "done:Finding your pages (9 routes (3 need a value))",
+      "done:Adding your pages",
+      "warn:Checking each page works (1 page(s) returned errors)"
+    ],
+    "logTail": [
+      "    at async file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/astro@7.4.8_@astrojs+markdown-remark@7.3.6_@types+node@24.19.2_jiti@2.7.0_yaml@2.9.1/node_modules/astro/dist/assets/fonts/infra/unifont-font-resolver.js:18:4",
+      "    at async file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/unifont@1.0.3/node_modules/unifont/dist/index.mjs:1764:23",
+      "    at async initializeProviders (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/unifont@1.0.3/node_modules/unifont/dist/index.mjs:1770:21)",
+      "    at async Object.getFontProperties (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/unifont@1.0.3/node_modules/unifont/dist/index.mjs:1814:33)",
+      "15:02:17 [WARN] [assets] No data found for font family Google Sans Code. Review your configuration",
+      "Could not initialize provider `google-c200761b0711fe56`. `unifont` will not be able to process fonts provided by this provider. TypeError: fetch failed: request failed: https://fonts.google.com/metadata/fonts (Easel: unreachable: fetch failed; add a mock rule for it)",
+      "    at easelFetch (/sessions/focused-dreamy-mendel/mnt/personal/easel/runtime/node-hook.cjs:52:25)",
+      "    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)",
+      "    at async fetchWithRetries (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/unifont@1.0.3/node_modules/unifont/dist/index.mjs:1568:20)",
+      "    at async Object.getItem (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/unifont@1.0.3/node_modules/unifont/dist/index.mjs:1688:17)",
+      "    at async file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/unifont@1.0.3/node_modules/unifont/dist/index.mjs:872:46",
+      "    at async Object.init (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/astro@7.4.8_@astrojs+markdown-remark@7.3.6_@types+node@24.19.2_jiti@2.7.0_yaml@2.9.1/node_modules/astro/dist/assets/fonts/providers/index.js:102:26)",
+      "    at async file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/astro@7.4.8_@astrojs+markdown-remark@7.3.6_@types+node@24.19.2_jiti@2.7.0_yaml@2.9.1/node_modules/astro/dist/assets/fonts/infra/unifont-font-resolver.js:18:4",
+      "    at async file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/unifont@1.0.3/node_modules/unifont/dist/index.mjs:1764:23",
+      "    at async initializeProviders (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/unifont@1.0.3/node_modules/unifont/dist/index.mjs:1770:21)",
+      "    at async Object.getFontProperties (file:///sessions/focused-dreamy-mendel/.easel-public-test/projects/pastro-paper-39b7/repo/node_modules/.pnpm/unifont@1.0.3/node_modules/unifont/dist/index.mjs:1814:33)",
+      " astro  v7.4.8 ready in 5256 ms",
+      "┃ Local    http://127.0.0.1:5301/",
+      "15:02:17 watching for file changes...",
+      "15:02:17 [404] /404 129ms",
+      "15:02:18 [200] / 73ms",
+      "15:02:18 [200] /about 147ms",
+      "15:02:18 [200] /archives 50ms",
+      "15:02:18 [200] /search 21ms",
+      "15:02:18 [200] /tags 33ms"
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": "Easel fetched Node 24 for it (app needs >=22.23.4). /404 answering 404 counts as correct."
+  },
+  "flask-tutorial": {
+    "when": "2026-11-17T09:46:00.188Z",
+    "detected": "Flask @ examples/tutorial",
+    "candidates": [
+      "examples/tutorial:flask",
+      ".:flask"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 10,
+    "routes": 8,
+    "dynamic": 2,
+    "routeList": [
+      "/",
+      "/:id/delete",
+      "/:id/update",
+      "/auth/login",
+      "/auth/logout",
+      "/auth/register",
+      "/create",
+      "/hello"
+    ],
+    "routeStatus": {
+      "/auth/login": {
+        "status": 200,
+        "ms": 5,
+        "redirect": null
+      },
+      "/auth/logout": {
+        "status": 302,
+        "ms": 7,
+        "redirect": "/"
+      },
+      "/": {
+        "status": 200,
+        "ms": 9,
+        "redirect": null
+      },
+      "/auth/register": {
+        "status": 200,
+        "ms": 7,
+        "redirect": null
+      },
+      "/create": {
+        "status": 302,
+        "ms": 5,
+        "redirect": "/auth/login"
+      },
+      "/hello": {
+        "status": 200,
+        "ms": 4,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 6,
+      "ok": 4,
+      "redirect": 2,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Flask in examples/tutorial/)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (Flask on http://127.0.0.1:5300)",
+      "done:Finding your pages (8 routes (2 need a value))",
+      "done:Adding your pages",
+      "done:Checking each page works (All pages respond)"
+    ],
+    "logTail": [
+      "$ /usr/bin/python3 -m venv /sessions/focused-dreamy-mendel/.easel-public-test/venvs/pflask-fe40",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/venvs/pflask-fe40/bin/python -m pip install --disable-pip-version-check -q -e .",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/venvs/pflask-fe40/bin/python -m flask --app flaskr:create_app() init-db",
+      "Initialized the database.",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/venvs/pflask-fe40/bin/python -m flask --app flaskr:create_app() run --host 127.0.0.1 --port 5301 --debug   (app :5301 → proxy :5300)",
+      " * Serving Flask app 'flaskr:create_app()'",
+      " * Debug mode: on",
+      "WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.",
+      " * Running on http://127.0.0.1:5301",
+      "Press CTRL+C to quit",
+      " * Restarting with stat",
+      " * Debugger is active!",
+      " * Debugger PIN: 142-765-653",
+      "127.0.0.1 - - [17/Nov/2026 15:15:58] \"GET / HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:15:58] \"GET /auth/register HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:15:58] \"GET /auth/login HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:15:58] \"GET /auth/login HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:15:58] \"GET /auth/logout HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:15:58] \"GET / HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:15:58] \"GET /auth/register HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:15:58] \"GET /create HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:15:58] \"GET /hello HTTP/1.1\" 200 -"
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": "Fixed: explicit app folder wasn’t honoured; blueprint url_prefix; runs the app’s init-db command so pages have tables."
+  },
+  "microblog": {
+    "when": "2026-11-17T09:46:20.292Z",
+    "detected": "Flask",
+    "candidates": [
+      ".:flask"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 20,
+    "routes": 20,
+    "dynamic": 7,
+    "routeList": [
+      "/",
+      "/api/users",
+      "/api/users/:id",
+      "/api/users/:id/followers",
+      "/api/users/:id/following",
+      "/auth/login",
+      "/auth/logout",
+      "/auth/register",
+      "/auth/reset_password_request",
+      "/auth/reset_password/:token",
+      "/edit_profile",
+      "/explore",
+      "/export_posts",
+      "/index",
+      "/messages",
+      "/notifications",
+      "/search",
+      "/send_message/:recipient",
+      "/user/:username",
+      "/user/:username/popup"
+    ],
+    "routeStatus": {
+      "/": {
+        "status": 302,
+        "ms": 6,
+        "redirect": "/auth/login?next=%2F"
+      },
+      "/auth/login": {
+        "status": 200,
+        "ms": 8,
+        "redirect": null
+      },
+      "/api/users": {
+        "status": 401,
+        "ms": 9,
+        "redirect": null,
+        "auth": true
+      },
+      "/auth/reset_password_request": {
+        "status": 200,
+        "ms": 5,
+        "redirect": null
+      },
+      "/auth/register": {
+        "status": 200,
+        "ms": 8,
+        "redirect": null
+      },
+      "/auth/logout": {
+        "status": 302,
+        "ms": 10,
+        "redirect": "/index"
+      },
+      "/edit_profile": {
+        "status": 302,
+        "ms": 5,
+        "redirect": "/auth/login?next=%2Fedit_profile"
+      },
+      "/export_posts": {
+        "status": 302,
+        "ms": 4,
+        "redirect": "/auth/login?next=%2Fexport_posts"
+      },
+      "/explore": {
+        "status": 302,
+        "ms": 6,
+        "redirect": "/auth/login?next=%2Fexplore"
+      },
+      "/messages": {
+        "status": 302,
+        "ms": 4,
+        "redirect": "/auth/login?next=%2Fmessages"
+      },
+      "/notifications": {
+        "status": 302,
+        "ms": 4,
+        "redirect": "/auth/login?next=%2Fnotifications"
+      },
+      "/index": {
+        "status": 302,
+        "ms": 7,
+        "redirect": "/auth/login?next=%2Findex"
+      },
+      "/search": {
+        "status": 302,
+        "ms": 3,
+        "redirect": "/auth/login?next=%2Fsearch"
+      }
+    },
+    "pages": {
+      "total": 13,
+      "ok": 3,
+      "redirect": 10,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Flask)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (Flask on http://127.0.0.1:5300)",
+      "done:Finding your pages (20 routes (7 need a value))",
+      "done:Adding your pages",
+      "done:Checking each page works (All pages respond)"
+    ],
+    "logTail": [
+      " * Restarting with stat",
+      " * Debugger is active!",
+      " * Debugger PIN: 335-146-985",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET / HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/login?next=/ HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /index HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/login?next=/index HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /explore HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/login?next=/explore HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/login HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/register HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/reset_password_request HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET / HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/login HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /api/users HTTP/1.1\" 401 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/reset_password_request HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/register HTTP/1.1\" 200 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /auth/logout HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /edit_profile HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /export_posts HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /explore HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /index HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /messages HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /notifications HTTP/1.1\" 302 -",
+      "127.0.0.1 - - [17/Nov/2026 15:16:19] \"GET /search HTTP/1.1\" 302 -"
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": "Fixed: blueprint prefixes from register_blueprint(); POST-only views skipped; 401 API counted as “needs sign-in”."
+  },
+  "django-library": {
+    "when": "2026-11-17T09:50:24.847Z",
+    "detected": "Django",
+    "candidates": [
+      ".:django"
+    ],
+    "status": "error",
+    "instance": "error",
+    "error": "install failed at \"pip install -r requirements.txt\". See logs.",
+    "secs": 18,
+    "routes": 31,
+    "dynamic": 16,
+    "routeList": [
+      "/",
+      "/admin",
+      "/catalog",
+      "/catalog/author/:pk",
+      "/catalog/author/:pk/delete",
+      "/catalog/author/:pk/update",
+      "/catalog/author/create",
+      "/catalog/authors",
+      "/catalog/book/:pk",
+      "/catalog/book/:pk/delete",
+      "/catalog/book/:pk/renew",
+      "/catalog/book/:pk/update",
+      "/catalog/book/create",
+      "/catalog/bookinstance/:pk",
+      "/catalog/bookinstance/:pk/delete",
+      "/catalog/bookinstance/:pk/update",
+      "/catalog/bookinstance/create",
+      "/catalog/bookinstances",
+      "/catalog/books",
+      "/catalog/borrowed",
+      "/catalog/genre/:pk",
+      "/catalog/genre/:pk/delete",
+      "/catalog/genre/:pk/update",
+      "/catalog/genre/create",
+      "/catalog/genres",
+      "/catalog/language/:pk",
+      "/catalog/language/:pk/delete",
+      "/catalog/language/:pk/update",
+      "/catalog/language/create",
+      "/catalog/languages",
+      "/catalog/mybooks"
+    ],
+    "routeStatus": {},
+    "pages": null,
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Django)",
+      "done:Preparing environment (Nothing needed)",
+      "error:Installing & starting your app (install failed at \"pip install -r requirements.txt\". See logs.)",
+      "done:Finding your pages (31 routes (16 need a value))",
+      "done:Adding your pages",
+      "skipped:Checking each page works (App did not start)"
+    ],
+    "logTail": [
+      "$ /usr/bin/python3 -m venv /sessions/focused-dreamy-mendel/.easel-public-test/venvs/pdjango-locallibrary--7929",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/venvs/pdjango-locallibrary--7929/bin/python -m pip install --disable-pip-version-check -q -r requirements.txt",
+      "ERROR: Could not find a version that satisfies the requirement Django==6.1.1 (from versions: 1.1.3, 1.1.4, 1.2, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.6, 1.2.7, 1.3, 1.3.1, 1.3.2, 1.3.3, 1.3.4, 1.3.5, 1.3.6, 1.3.7, 1.4, 1.4.1, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.7, 1.4.8, 1.4.9, 1.4.10, 1.4.11, 1.4.12, 1.4.13, 1.4.14, 1.4.15, 1.4.16, 1.4.17, 1.4.18, 1.4.19, 1.4.20, 1.4.21, 1.4.22, 1.5, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.5.7, 1.5.8, 1.5.9, 1.5.10, 1.5.11, 1.5.12, 1.6, 1.6.1, 1.6.2, 1.6.3, 1.6.4, 1.6.5, 1.6.6, 1.6.7, 1.6.8, 1.6.9, 1.6.10, 1.6.11, 1.7, 1.7.1, 1.7.2, 1.7.3, 1.7.4, 1.7.5, 1.7.6, 1.7.7, 1.7.8, 1.7.9, 1.7.10, 1.7.11, 1.8a1, 1.8b1, 1.8b2, 1.8rc1, 1.8, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7, 1.8.8, 1.8.9, 1.8.10, 1.8.11, 1.8.12, 1.8.13, 1.8.14, 1.8.15, 1.8.16, 1.8.17, 1.8.18, 1.8.19, 1.9a1, 1.9b1, 1.9rc1, 1.9rc2, 1.9, 1.9.1, 1.9.2, 1.9.3, 1.9.4, 1.9.5, 1.9.6, 1.9.7, 1.9.8, 1.9.9, 1.9.10, 1.9.11, 1.9.12, 1.9.13, 1.10a1, 1.10b1, 1.10rc1, 1.10, 1.10.1, 1.10.2, 1.10.3, 1.10.4, 1.10.5, 1.10.6, 1.10.7, 1.10.8, 1.11a1, 1.11b1, 1.11rc1, 1.11, 1.11.1, 1.11.2, 1.11.3, 1.11.4, 1.11.5, 1.11.6, 1.11.7, 1.11.8, 1.11.9, 1.11.10, 1.11.11, 1.11.12, 1.11.13, 1.11.14, 1.11.15, 1.11.16, 1.11.17, 1.11.18, 1.11.20, 1.11.21, 1.11.22, 1.11.23, 1.11.24, 1.11.25, 1.11.26, 1.11.27, 1.11.28, 1.11.29, 2.0a1, 2.0b1, 2.0rc1, 2.0, 2.0.1, 2.0.2, 2.0.3, 2.0.4, 2.0.5, 2.0.6, 2.0.7, 2.0.8, 2.0.9, 2.0.10, 2.0.12, 2.0.13, 2.1a1, 2.1b1, 2.1rc1, 2.1, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 2.1.5, 2.1.7, 2.1.8, 2.1.9, 2.1.10, 2.1.11, 2.1.12, 2.1.13, 2.1.14, 2.1.15, 2.2a1, 2.2b1, 2.2rc1, 2.2, 2.2.1, 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7, 2.2.8, 2.2.9, 2.2.10, 2.2.11, 2.2.12, 2.2.13, 2.2.14, 2.2.15, 2.2.16, 2.2.17, 2.2.18, 2.2.19, 2.2.20, 2.2.21, 2.2.22, 2.2.23, 2.2.24, 2.2.25, 2.2.26, 2.2.27, 2.2.28, 3.0a1, 3.0b1, 3.0rc1, 3.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7, 3.0.8, 3.0.9, 3.0.10, 3.0.11, 3.0.12, 3.0.13, 3.0.14, 3.1a1, 3.1b1, 3.1rc1, 3.1, 3.1.1, 3.1.2, 3.1.3, 3.1.4, 3.1.5, 3.1.6, 3.1.7, 3.1.8, 3.1.9, 3.1.10, 3.1.11, 3.1.12, 3.1.13, 3.1.14, 3.2a1, 3.2b1, 3.2rc1, 3.2, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.2.6, 3.2.7, 3.2.8, 3.2.9, 3.2.10, 3.2.11, 3.2.12, 3.2.13, 3.2.14, 3.2.15, 3.2.16, 3.2.17, 3.2.18, 3.2.19, 3.2.20, 3.2.21, 3.2.22, 3.2.23, 3.2.24, 3.2.25, 4.0a1, 4.0b1, 4.0rc1, 4.0, 4.0.1, 4.0.2, 4.0.3, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.0.10, 4.1a1, 4.1b1, 4.1rc1, 4.1, 4.1.1, 4.1.2, 4.1.3, 4.1.4, 4.1.5, 4.1.6, 4.1.7, 4.1.8, 4.1.9, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.2a1, 4.2b1, 4.2rc1, 4.2, 4.2.1, 4.2.2, 4.2.3, 4.2.4, 4.2.5, 4.2.6, 4.2.7, 4.2.8, 4.2.9, 4.2.10, 4.2.11, 4.2.12, 4.2.13, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.19, 4.2.20, 4.2.21, 4.2.22, 4.2.23, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30, 5.0a1, 5.0b1, 5.0rc1, 5.0, 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.0.6, 5.0.7, 5.0.8, 5.0.9, 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, 5.1a1, 5.1b1, 5.1rc1, 5.1, 5.1.1, 5.1.2, 5.1.3, 5.1.4, 5.1.5, 5.1.6, 5.1.7, 5.1.8, 5.1.9, 5.1.10, 5.1.11, 5.1.12, 5.1.13, 5.1.14, 5.1.15, 5.2a1, 5.2b1, 5.2rc1, 5.2, 5.2.1, 5.2.2, 5.2.3, 5.2.4, 5.2.5, 5.2.6, 5.2.7, 5.2.8, 5.2.9, 5.2.10, 5.2.11, 5.2.12, 5.2.13, 5.2.14, 5.2.15, 5.2.16, 5.2.17, 5.2.18, 5.2.19)",
+      "ERROR: No matching distribution found for Django==6.1.1",
+      "✗ pip install -r requirements.txt exited with 1",
+      "$ sh -c [ -x '/sessions/focused-dreamy-mendel/.easel-public-test/tools/uv/bin/uv' ] || { '/usr/bin/python3' -m venv '/sessions/focused-dreamy-mendel/.easel-public-test/tools/uv' && '/sessions/focused-dreamy-mendel/.easel-public-test/tools/uv/bin/pip' install -q uv; } || exit 1; '/sessions/focused-dreamy-mendel/.easel-public-test/tools/uv/bin/uv' python install 3.14 || exit 1; rm -rf '/sessions/focused-dreamy-mendel/.easel-public-test/venvs/pdjango-locallibrary--7929' && '/sessions/focused-dreamy-mendel/.easel-public-test/tools/uv/bin/uv' venv --seed --python 3.14 '/sessions/focused-dreamy-mendel/.easel-public-test/venvs/pdjango-locallibrary--7929' || exit 1; '/sessions/focused-dreamy-mendel/.easel-public-test/venvs/pdjango-locallibrary--7929/bin/python' -m pip install --disable-pip-version-check -q '-r' 'requirements.txt'",
+      "error: Failed to install cpython-3.14.10-linux-aarch64-gnu",
+      "  cause: Request failed after 3 retries in 8.2s",
+      "  cause: Failed to download `https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.14.10%2B20261110-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz`",
+      "  cause: error sending request for url (https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.14.10%2B20261110-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz)",
+      "  cause: client error (Connect)",
+      "  cause: tunnel error: unsuccessful",
+      "✗ Python 3.14 via uv, then pip install exited with 1"
+    ],
+    "verdict": "fail",
+    "reason": "needs Python 3.12+ (machine has 3.10)",
+    "note": "Routes found. Easel fell back to fetching Python with uv; uv’s download host is blocked in this sandbox. Expected to work on a normal machine."
+  },
+  "bakerydemo": {
+    "when": "2026-11-17T09:47:13.159Z",
+    "detected": "Django",
+    "candidates": [
+      ".:django"
+    ],
+    "status": "error",
+    "instance": "error",
+    "error": "install failed at \"pip install -r requirements.txt\". See logs.",
+    "secs": 40,
+    "routes": 12,
+    "dynamic": 0,
+    "routeList": [
+      "/",
+      "/__debug__",
+      "/admin",
+      "/api/v2",
+      "/api/v3-preview",
+      "/django-admin",
+      "/documents",
+      "/favicon.ico",
+      "/search",
+      "/sitemap.xml",
+      "/test404",
+      "/test500"
+    ],
+    "routeStatus": {},
+    "pages": null,
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Django)",
+      "done:Preparing environment (Wrote .env from .env.example (0 placeholder values))",
+      "error:Installing & starting your app (install failed at \"pip install -r requirements.txt\". See logs.)",
+      "done:Finding your pages (12 routes (0 need a value))",
+      "done:Adding your pages",
+      "skipped:Checking each page works (App did not start)"
+    ],
+    "logTail": [
+      "! This app asks for Node 24; this machine has 22.23.2. Fetching a matching Node for it.",
+      "Using Node 24.22.3 for this app.",
+      "$ /usr/bin/python3 -m venv /sessions/focused-dreamy-mendel/.easel-public-test/venvs/pbakerydemo-d18d",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/venvs/pbakerydemo-d18d/bin/python -m pip install --disable-pip-version-check -q -r requirements.txt",
+      "ERROR: Could not find a version that satisfies the requirement Django<6.1,>=6.0 (from versions: 1.1.3, 1.1.4, 1.2, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.6, 1.2.7, 1.3, 1.3.1, 1.3.2, 1.3.3, 1.3.4, 1.3.5, 1.3.6, 1.3.7, 1.4, 1.4.1, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.7, 1.4.8, 1.4.9, 1.4.10, 1.4.11, 1.4.12, 1.4.13, 1.4.14, 1.4.15, 1.4.16, 1.4.17, 1.4.18, 1.4.19, 1.4.20, 1.4.21, 1.4.22, 1.5, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.5.7, 1.5.8, 1.5.9, 1.5.10, 1.5.11, 1.5.12, 1.6, 1.6.1, 1.6.2, 1.6.3, 1.6.4, 1.6.5, 1.6.6, 1.6.7, 1.6.8, 1.6.9, 1.6.10, 1.6.11, 1.7, 1.7.1, 1.7.2, 1.7.3, 1.7.4, 1.7.5, 1.7.6, 1.7.7, 1.7.8, 1.7.9, 1.7.10, 1.7.11, 1.8a1, 1.8b1, 1.8b2, 1.8rc1, 1.8, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7, 1.8.8, 1.8.9, 1.8.10, 1.8.11, 1.8.12, 1.8.13, 1.8.14, 1.8.15, 1.8.16, 1.8.17, 1.8.18, 1.8.19, 1.9a1, 1.9b1, 1.9rc1, 1.9rc2, 1.9, 1.9.1, 1.9.2, 1.9.3, 1.9.4, 1.9.5, 1.9.6, 1.9.7, 1.9.8, 1.9.9, 1.9.10, 1.9.11, 1.9.12, 1.9.13, 1.10a1, 1.10b1, 1.10rc1, 1.10, 1.10.1, 1.10.2, 1.10.3, 1.10.4, 1.10.5, 1.10.6, 1.10.7, 1.10.8, 1.11a1, 1.11b1, 1.11rc1, 1.11, 1.11.1, 1.11.2, 1.11.3, 1.11.4, 1.11.5, 1.11.6, 1.11.7, 1.11.8, 1.11.9, 1.11.10, 1.11.11, 1.11.12, 1.11.13, 1.11.14, 1.11.15, 1.11.16, 1.11.17, 1.11.18, 1.11.20, 1.11.21, 1.11.22, 1.11.23, 1.11.24, 1.11.25, 1.11.26, 1.11.27, 1.11.28, 1.11.29, 2.0a1, 2.0b1, 2.0rc1, 2.0, 2.0.1, 2.0.2, 2.0.3, 2.0.4, 2.0.5, 2.0.6, 2.0.7, 2.0.8, 2.0.9, 2.0.10, 2.0.12, 2.0.13, 2.1a1, 2.1b1, 2.1rc1, 2.1, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 2.1.5, 2.1.7, 2.1.8, 2.1.9, 2.1.10, 2.1.11, 2.1.12, 2.1.13, 2.1.14, 2.1.15, 2.2a1, 2.2b1, 2.2rc1, 2.2, 2.2.1, 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7, 2.2.8, 2.2.9, 2.2.10, 2.2.11, 2.2.12, 2.2.13, 2.2.14, 2.2.15, 2.2.16, 2.2.17, 2.2.18, 2.2.19, 2.2.20, 2.2.21, 2.2.22, 2.2.23, 2.2.24, 2.2.25, 2.2.26, 2.2.27, 2.2.28, 3.0a1, 3.0b1, 3.0rc1, 3.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7, 3.0.8, 3.0.9, 3.0.10, 3.0.11, 3.0.12, 3.0.13, 3.0.14, 3.1a1, 3.1b1, 3.1rc1, 3.1, 3.1.1, 3.1.2, 3.1.3, 3.1.4, 3.1.5, 3.1.6, 3.1.7, 3.1.8, 3.1.9, 3.1.10, 3.1.11, 3.1.12, 3.1.13, 3.1.14, 3.2a1, 3.2b1, 3.2rc1, 3.2, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.2.6, 3.2.7, 3.2.8, 3.2.9, 3.2.10, 3.2.11, 3.2.12, 3.2.13, 3.2.14, 3.2.15, 3.2.16, 3.2.17, 3.2.18, 3.2.19, 3.2.20, 3.2.21, 3.2.22, 3.2.23, 3.2.24, 3.2.25, 4.0a1, 4.0b1, 4.0rc1, 4.0, 4.0.1, 4.0.2, 4.0.3, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.0.10, 4.1a1, 4.1b1, 4.1rc1, 4.1, 4.1.1, 4.1.2, 4.1.3, 4.1.4, 4.1.5, 4.1.6, 4.1.7, 4.1.8, 4.1.9, 4.1.10, 4.1.11, 4.1.12, 4.1.13, 4.2a1, 4.2b1, 4.2rc1, 4.2, 4.2.1, 4.2.2, 4.2.3, 4.2.4, 4.2.5, 4.2.6, 4.2.7, 4.2.8, 4.2.9, 4.2.10, 4.2.11, 4.2.12, 4.2.13, 4.2.14, 4.2.15, 4.2.16, 4.2.17, 4.2.18, 4.2.19, 4.2.20, 4.2.21, 4.2.22, 4.2.23, 4.2.24, 4.2.25, 4.2.26, 4.2.27, 4.2.28, 4.2.29, 4.2.30, 5.0a1, 5.0b1, 5.0rc1, 5.0, 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.0.6, 5.0.7, 5.0.8, 5.0.9, 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, 5.1a1, 5.1b1, 5.1rc1, 5.1, 5.1.1, 5.1.2, 5.1.3, 5.1.4, 5.1.5, 5.1.6, 5.1.7, 5.1.8, 5.1.9, 5.1.10, 5.1.11, 5.1.12, 5.1.13, 5.1.14, 5.1.15, 5.2a1, 5.2b1, 5.2rc1, 5.2, 5.2.1, 5.2.2, 5.2.3, 5.2.4, 5.2.5, 5.2.6, 5.2.7, 5.2.8, 5.2.9, 5.2.10, 5.2.11, 5.2.12, 5.2.13, 5.2.14, 5.2.15, 5.2.16, 5.2.17, 5.2.18, 5.2.19)",
+      "ERROR: No matching distribution found for Django<6.1,>=6.0",
+      "✗ pip install -r requirements.txt exited with 1"
+    ],
+    "verdict": "fail",
+    "reason": "needs Python 3.12+ (machine has 3.10)",
+    "note": "Routes found. Easel fell back to fetching Python with uv; uv’s download host is blocked in this sandbox. Expected to work on a normal machine."
+  },
+  "laravel": {
+    "when": "2026-11-17T09:50:26.886Z",
+    "detected": "Laravel",
+    "candidates": [
+      ".:laravel"
+    ],
+    "status": "error",
+    "instance": "error",
+    "error": "Laravel needs php, composer installed on this machine.",
+    "secs": 2,
+    "routes": 1,
+    "dynamic": 0,
+    "routeList": [
+      "/"
+    ],
+    "routeStatus": {},
+    "pages": null,
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Laravel)",
+      "done:Preparing environment (Wrote .env from .env.example (4 placeholder values))",
+      "error:Installing & starting your app (Laravel needs php, composer installed on this machine.)",
+      "done:Finding your pages (1 route (0 need a value))",
+      "done:Adding your pages",
+      "skipped:Checking each page works (App did not start)"
+    ],
+    "logTail": [],
+    "verdict": "routes-only",
+    "reason": "Laravel needs php, composer installed on this machine.",
+    "note": "PHP isn’t installed in this sandbox; routes parsed from routes/web.php"
+  },
+  "react-router": {
+    "when": "2026-11-17T09:52:18.808Z",
+    "detected": "Remix / React Router @ default",
+    "candidates": [
+      "default:remix",
+      "node-custom-server:remix",
+      "unstable_rsc-framework-mode:remix",
+      "unstable_rsc-data-mode-vite:vite"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 102,
+    "routes": 1,
+    "dynamic": 0,
+    "routeList": [
+      "/"
+    ],
+    "routeStatus": {
+      "/": {
+        "status": 200,
+        "ms": 12,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 1,
+      "ok": 1,
+      "redirect": 0,
+      "bad": 0
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Remix / React Router in default/)",
+      "done:Preparing environment (Nothing needed)",
+      "done:Installing & starting your app (Remix / React Router on http://127.0.0.1:5300)",
+      "done:Finding your pages (1 route (0 need a value))",
+      "done:Adding your pages",
+      "done:Checking each page works (All pages respond)"
+    ],
+    "logTail": [
+      "$ npm install --no-audit --no-fund --loglevel=error",
+      "added 177 packages in 2m",
+      "$ /sessions/focused-dreamy-mendel/.easel-public-test/projects/preact-router-templat-3ea2/repo/default/node_modules/.bin/react-router dev --port 5301 --host 127.0.0.1   (app :5301 → proxy :5300)",
+      "[restart] Relaunching with --conditions=development",
+      "  ➜  Local:   http://127.0.0.1:5301/",
+      "3:22:18 PM [vite] (ssr) connected."
+    ],
+    "verdict": "pass",
+    "reason": null,
+    "note": "Picked default/ from a repo of templates."
+  },
+  "commerce": {
+    "when": "2026-11-17T09:59:57.922Z",
+    "detected": "Next.js",
+    "candidates": [
+      ".:next"
+    ],
+    "status": "ready",
+    "instance": "running",
+    "error": null,
+    "secs": 112,
+    "routes": 5,
+    "dynamic": 3,
+    "routeList": [
+      "/",
+      "/:page",
+      "/product/:handle",
+      "/search",
+      "/search/:collection"
+    ],
+    "routeStatus": {
+      "/": {
+        "status": 500,
+        "ms": 4399,
+        "redirect": null
+      },
+      "/search": {
+        "status": 500,
+        "ms": 4440,
+        "redirect": null
+      }
+    },
+    "pages": {
+      "total": 2,
+      "ok": 0,
+      "redirect": 0,
+      "bad": 2
+    },
+    "steps": [
+      "done:Reading your code",
+      "done:Detecting your stack (Next.js)",
+      "done:Preparing environment (Wrote .env from .env.example (2 placeholder values))",
+      "done:Installing & starting your app (Next.js on http://127.0.0.1:5300)",
+      "done:Finding your pages (5 routes (3 need a value))",
+      "done:Adding your pages",
+      "warn:Checking each page works (2 page(s) returned errors)"
+    ],
+    "logTail": [
+      "  environmentName: 'Cache',",
+      "  digest: '294132509'",
+      "}",
+      " ⨯ Error: {cause: ..., status: 500, message: ..., query: ...}",
+      "    at ignore-listed frames {",
+      "  environmentName: 'Cache',",
+      "  digest: '3072727473'",
+      "}",
+      " ⨯ Error: {cause: ..., status: 500, message: ..., query: ...}",
+      "    at ignore-listed frames {",
+      "  environmentName: 'Cache',",
+      "  digest: '294132509'",
+      "}",
+      " ⨯ Error: {cause: ..., status: 500, message: ..., query: ...}",
+      "    at ignore-listed frames {",
+      "  environmentName: 'Cache',",
+      "  digest: '294132509'",
+      "}",
+      " ⨯ Error: {cause: ..., status: 500, message: ..., query: ...}",
+      "    at ignore-listed frames {",
+      "  environmentName: 'Cache',",
+      "  digest: '3072727473'",
+      "}",
+      " GET / 500 in 4250ms",
+      " GET /search 500 in 4282ms"
+    ],
+    "verdict": "partial",
+    "reason": null,
+    "note": "Installs and runs (pnpm 10 picked from the lockfile format). Every page queries the Shopify Storefront API, so pages 500 until a mock rule for the GraphQL endpoint is added: the textbook “needs mocks” case."
+  }
+}

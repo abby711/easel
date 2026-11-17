@@ -1,0 +1,1 @@
+{ "label": "Go service (custom)", "start": "go run . --port $PORT", "routes": ["/", "/health", "/orders/:id"] }
